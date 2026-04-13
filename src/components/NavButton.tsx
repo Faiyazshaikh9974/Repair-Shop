@@ -21,7 +21,7 @@ function NavButton({
             size={"icon"}
             aria-label={label}
             title={label}
-            className="hover:rounded-full"
+            className="hover:rounded-full text-black"
             asChild
         >
             {href ? (
