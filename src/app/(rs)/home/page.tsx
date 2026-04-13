@@ -1,6 +1,14 @@
 import React from 'react'
 
-function Home () {
+export const metadata = {
+
+  title: "Home",
+  
+
+}
+
+
+function Home() {
   return (
     <div> Home</div>
   )

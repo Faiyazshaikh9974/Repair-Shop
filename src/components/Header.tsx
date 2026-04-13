@@ -19,10 +19,9 @@ function Header() {
                 </div>
 
                 <div className="flex  items-center ">
-                    <p>Right</p>
-                    <ModeToggle />
                     <NavButton icon={Ticket} label='Ticket' href={'/tickets'}></NavButton>
                     <NavButton icon={User} label={"Login"} href={""}></NavButton>
+                    <ModeToggle />
                 </div>
             </div>
         </header>
